@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:4e8f43c0-3851-51a7-bb21-7fa90d8049fd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-11T05:21:29Z",
+    "component": {
+      "type": "application",
+      "name": "OPEN3D",
+      "version": "9f18331703e9",
+      "bom-ref": "pkg:generic/anticloud/OPEN3D@9f18331703e9",
+      "purl": "pkg:generic/anticloud/OPEN3D@9f18331703e9",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "9f18331703e961aa2e4c2d98f1b8a2b42f1b022c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-open3d.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Eigen3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Eigen3",
+      "bom-ref": "native/Eigen3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenMP",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenMP",
+      "bom-ref": "native/OpenMP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "catkin",
+      "version": "unspecified",
+      "purl": "pkg:generic/catkin",
+      "bom-ref": "native/catkin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Lua",
+      "version": "unspecified",
+      "purl": "pkg:generic/Lua",
+      "bom-ref": "native/Lua@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cmake_code_coverage",
+      "version": "unspecified",
+      "purl": "pkg:generic/cmake_code_coverage",
+      "bom-ref": "native/cmake_code_coverage@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cmake_clang_tools",
+      "version": "unspecified",
+      "purl": "pkg:generic/cmake_clang_tools",
+      "bom-ref": "native/cmake_clang_tools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Open3D",
+      "version": "unspecified",
+      "purl": "pkg:generic/Open3D",
+      "bom-ref": "native/Open3D@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fmt",
+      "version": "unspecified",
+      "purl": "pkg:generic/fmt",
+      "bom-ref": "native/fmt@unspecified"
+    }
+  ]
+}
